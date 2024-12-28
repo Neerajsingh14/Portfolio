@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="./assets/N (1).png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!--CSS Links-->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+
+    <!-- Boxicons CDN -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Google Fonts Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--Font Awesome Icon CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!--header section-->
+  <header class="header">
+        
+        <img src="./assets/NEERAJ_LOGO.png" alt="" width="130px;">
+        
+        <i class='bx bx-menu' id="menu-icon" ></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a> 
+            <a href="#projects">Projects</a> 
+            <a href="#contact">Contact</a>   
+
+            <span class="active-nav"></span>
+        </nav>
+         
+  </header>
+
+  <!--home section-->
+  <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span id="text">Neeraj Singh Rajpurohit</span></h1>
+            <div class="text-animate">
+                <h3 data-text="Frontend Developer">Frontend Developer</h3>
+            </div>
+            <p>"Welcome to my portfolio! I am a passionate frontend developer skilled in creating dynamic, responsive, and user-friendly web interfaces. With expertise in HTML, CSS, JavaScript. Explore my projects to see how I combine creativity and code to build impactful digital solutions."</p><br>
+            <div class="btn-container">
+                <button
+                  class="btn btn-color-1"
+                  onclick="window.open('./assets/My resume(1).pdf')"
+                >
+                  Download CV
+                </button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">
+                  Contact Info
+                </button>
+            </div>
+
+            <div id="socials-container">
+                <img
+                  src="./assets/icon-linkedin.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='http://www.linkedin.com/in/neeraj-singh-rajpurohit'"
+                />
+                <img
+                  src="./assets/icon-github.png"
+                  alt="My Github profile"
+                  class="icon"
+                  onclick="location.href='https://github.com/Neerajsingh14'"
+                />
+            </div>
+
+        </div>
+    </section>
+
+  <!--About Section Design-->
+  <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+
+      <div class="about-img">
+        <img src="./assets/NEERAJ.jpg" alt="" width="380px" height="230px">
+        <span class="circle-spin"></span>
+      </div>
+
+      <div class="about-content">
+        <h3>Frontend Developer!</h3><br>
+        <p>"Hi, I’m Neeraj Singh Rajpurohit, a passionate MCA student and aspiring Frontend Developer. With proficiency in front-end technologies like HTML, CSS, JavaScript, and frameworks like React.I am dedicated to building visually appealing and user-friendly web applications.!</p>
+
+      </div>
+  </section>
+
+  <!-- Education section design -->
+   <section class="education" id="education">
+    <h2 class="heading">My <span>Journey</span></h2>
+
+    <div class="education-row">
+      
+      <div class="education-coloum">
+        <h3 class="title">Education</h3>
+
+        <div class="education-box">
+
+          <div class="education-content">
+            <div class="content">
+              <div class="year"><i class="fa-solid fa-calendar-days"></i> 2024 - 2026</div>
+                <h3>Master Of Computer Application</h3>
+                <p>Presidency University, Bengaluru
+                </p>
+                <p>Present</p>
+              </div>
+          </div>
+
+          <div class="education-content">
+              <div class="content">
+                <div class="year"><i class="fa-solid fa-calendar-days"></i> 2021 - 2024</div>
+                  <h3>Bachelor of Computer Application</h3>
+                  <p>Lachoo Memorial College of science and Technology, Jodhpur(Raj)
+                  </p>
+                  <p>82.40%</p>
+                </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </section>
+  <!-- Skills section design -->
+  <section class="skills" id="skills">
+    <div class="skills-container">
+      <h2 class="heading">Skills</h2>
+  
+      <div class="skill">
+        <div class="skill-header">
+          <span>HTML</span>
+          <span>90%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 90%;"></div>
+        </div>
+      </div>
+  
+      <div class="skill">
+        <div class="skill-header">
+          <span>CSS</span>
+          <span>80%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 80%;"></div>
+        </div>
+      </div>
+  
+      <div class="skill">
+        <div class="skill-header">
+          <span>JavaScript</span>
+          <span>75%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 70%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Projects section design -->
+  <section class="projects" id="projects">
+    <h2>My <span>Projects</span></h2>
+    <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+            
+            <div class="project-info">
+                <h3>Age Calculator</h3>
+                <p>Age Calculator that allows users to calculate their exact age in years, months, and days based on their birthdate.</p>
+                <a href="https://github.com/Neerajsingh14/Age-Calculator" class="project-link">GitHub</a>
+                <a href="https://neerajsingh14.github.io/Age-Calculator/" class="project-link">Demo</a>   
+            </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+            
+            <div class="project-info">
+                <h3>Calculator</h3>
+                <p>This project allows users to perform basic arithmetic operations with a user-friendly interface.</p>
+                <a href="https://github.com/Neerajsingh14/Calculator" class="project-link">Github</a>
+                <a href="https://neerajsingh14.github.io/Calculator/" class="project-link">Demo</a>
+            </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+            
+            <div class="project-info">
+                <h3>Grid</h3>
+                <p>Grid Property is a powerful layout system designed for creating two-dimensional layouts on the web.</p>
+                <a href="https://github.com/Neerajsingh14/Grid" class="project-link">Github</a>
+                <a href="https://neerajsingh14.github.io/Grid/" class="project-link">Demo</a>
+            </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="project-card">
+            
+            <div class="project-info">
+                <h3>University Registration Form</h3>
+                <p>The university registration form is used by prospective students to enroll in a university.</p>
+                <a href="https://github.com/Neerajsingh14/University-Registration-Form" class="project-link">Github</a>
+                <a href="https://neerajsingh14.github.io/University-Registration-Form/" class="project-link">Demo</a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <!-- Contact section design -->
+  <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="435a8dca-51a5-41b6-a714-d35941c84ac4">
+            
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="input-field">
+                    <input type="email" name="Email" placeholder="Your Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            
+
+            <div class="input-box">
+              <div class="input-field">
+                  <input type="number" name="Mobile_Number" placeholder="Mobile Number" required>
+                  <span class="focus"></span>
+              </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea cols="30" rows="6" name="message" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+  </section>
+
+  <!-- footer design -->
+  <footer class="footer">
+      <div class="footer-text">
+          <p>Copyright &copy; 2024 by Neeraj | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+          <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+
+  </footer> 
+
+  <script src="./script.js"></script>
+</body>
+</html>
