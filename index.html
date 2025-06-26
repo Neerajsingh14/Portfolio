@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/N.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/neerajsingh.png" alt="Neeraj" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Om Kharche">NEERAJ SINGH <br>RAJPUROHIT</h1>
+
+          <p class="title">Full Stack Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:omtestmail@gmail.com" class="contact-link">neerajpurohit520@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 8769667289</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bengaluru, India</address>
+              
+            </div>
+
+          </li>
+
+         <li class="contact-item">
+  <div class="icon-box">
+    <ion-icon name="cloud-download-outline"></ion-icon>
+  </div>
+  <div class="contact-info">
+   
+    <button class="download-btn" onclick="window.open('NeerajSinghRajpurohitResume.pdf')">
+      
+      Resume
+    </button>
+  </div>
+</li>
+</ul>
+
+  <div class="separator"></div>
+
+    <ul class="social-list">
+
+    <li class="social-item">
+      <a href="https://www.linkedin.com/in/neeraj-singh-rajpurohit" class="social-link" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </li>
+
+    <li class="social-item">
+      <a href="https://github.com/Neerajsingh14" class="social-link" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+    </li>
+
+    <li class="social-item">
+      <a href="https://www.instagram.com/neerajsingh.14/" class="social-link" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+    </li>
+
+</ul>
+
+      
+
+      </div>
+
+</aside>
+
+
+
+
+
+<!--
+  - #main-content
+    -->
+
+<div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+<!--
+  - #ABOUT
+  -->
+
+<article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+          I'm Neeraj Singh Rajpurohit — a passionate Full Stack Web Developer and MCA student at Presidency University, Bangalore. I love turning ideas into interactive, real-world web applications. 
+          I’ve developed dynamic projects like gym management systems, quiz platforms, and e-commerce UIs using technologies like HTML, CSS, JavaScript, React, Python (Flask), Java (Servlets), and MySQL. 
+          I’m driven by a strong focus on clean code, responsive design, and building scalable digital experiences that make an impact. 
+          </p>
+
+        
+        </section>
+
+      <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Presidency University Bengaluru</h4>
+
+              <span>2024 — 2026</span>
+
+              <p class="timeline-text">
+                Master of Computer Application (MCA)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lachoo Memorial College Jodhpur</h4>
+
+              <span>2021 — 2024</span>
+
+              <p class="timeline-text">
+                Bachelor of Computer Application (BCA)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school Mundara (Raj.)</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+               12th Grade
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+        <!--
+          - service
+        -->
+        <section class="service">
+
+  <h3 class="h3 service-title">What I'm Doing</h3>
+
+  <ul class="service-list">
+
+    <!-- UI/UX Design -->
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/ux_10779685.png" alt="Design icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">UI/UX Design</h4>
+        <p class="service-item-text">
+          Creating user-friendly, responsive, and visually appealing designs using tools like Figma and Adobe XD.
+        </p>
+      </div>
+    </li>
+
+    <!-- Full Stack Web Development -->
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/fullstack.png" alt="Full stack development icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Full Stack Web Development</h4>
+        <p class="service-item-text">
+          Building complete web applications using frontend (HTML, CSS, JavaScript, React) and backend (Node.js, Java, MySQL, MongoDB) technologies.
+        </p>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+      </article>
+
+
+
+
+
+  <!--
+    - #SKILLS
+    -->
+
+<article class="resume" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+        
+<section class="skill">
+
+  <!-- Frontend Skills -->
+  <h4 class="h4 skills-title">Frontend Skills</h4>
+  <ul class="skills-list content-card">
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">HTML/CSS</h5>
+        <data value="95">95%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 95%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">JavaScript</h5>
+        <data value="90">60%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 90%;"></div>
+      </div>
+    </li>
+  </ul>
+
+  <br>
+
+  <!-- Backend Skills -->
+  <h4 class="h4 skills-title">Backend Skills</h4>
+  <ul class="skills-list content-card">
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Java</h5>
+        <data value="95">95%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 95%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Python</h5>
+        <data value="70">70%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 70%;"></div>
+      </div>
+    </li>
+  </ul>
+
+  <br>
+
+  <!-- Database Skills -->
+  <h4 class="h4 skills-title">Database</h4>
+  <ul class="skills-list content-card">
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">MySQL</h5>
+        <data value="85">90%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 90%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">MongoDB</h5>
+        <data value="80">65%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 65%;"></div>
+      </div>
+    </li>
+  </ul>
+
+  <br>
+
+  <!-- 🛠️ Tools & Platforms -->
+  <h4 class="h4 skills-title">Tools & Platforms</h4>
+  <ul class="skills-list content-card">
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Git & GitHub</h5>
+        <data value="90">90%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 90%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">VS Code</h5>
+        <data value="95">95%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 95%;"></div>
+      </div>
+    </li>
+  </ul>
+
+</section>
+    
+    </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+<article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+<section class="projects">  
+
+  <!-- Filter Buttons -->
+  <ul class="filter-list">
+    <li class="filter-item">
+      <button class="active" data-filter-btn data-category="all">All</button>
+    </li>
+    <li class="filter-item">
+      <button data-filter-btn data-category="frontend">Frontend Projects</button>
+    </li>
+    <li class="filter-item">
+      <button data-filter-btn data-category="fullstack">Full Stack Projects</button>
+    </li>
+    <li class="filter-item">
+      <button data-filter-btn data-category="mini">Mini Projects</button>
+    </li>
+  </ul>
+
+  <!-- Dropdown Select -->
+  <div class="filter-select-box" data-select-box>
+    <button class="filter-select" data-select>
+      <div class="select-value" data-select-value>Select category</div>
+      <div class="select-icon">▼</div>
+    </button>
+    <ul class="select-list">
+      <li class="select-item"><button data-select-item data-category="all">All</button></li>
+      <li class="select-item"><button data-select-item data-category="frontend">Frontend Projects</button></li>
+      <li class="select-item"><button data-select-item data-category="fullstack">Full Stack Projects</button></li>
+      <li class="select-item"><button data-select-item data-category="mini">Mini Projects</button></li>
+    </ul>
+  </div>
+
+  <!-- Project List -->
+  <ul class="project-list">
+
+  <!-- Full Stack: Quiz App -->
+  <li class="project-item active" data-filter-item data-category="fullstack">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <!-- Preview link -->
+        <a href="https://your-live-demo-link.com" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/Neerajsingh14/Quiz-Application" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/quiz.jpg" alt="Quiz App" loading="lazy">
+      </figure>
+      <h3 class="project-title">Quiz Application</h3>
+      <p class="project-category">Full Stack</p>
+    </a>
+  </li>
+
+  <!-- Full Stack: Weather App -->
+  <li class="project-item active" data-filter-item data-category="fullstack">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+         <!-- Preview link -->
+        <a href="https://your-live-demo-link.com" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/Neerajsingh14/Weather-Forecast-Web-Application" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/weather.jpg" alt="Weather App" loading="lazy">
+      </figure>
+      <h3 class="project-title">Weather Forecast App</h3>
+      <p class="project-category">Full Stack</p>
+    </a>
+  </li>
+
+  <!-- Frontend: Amazon Clone -->
+  <li class="project-item active" data-filter-item data-category="frontend">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <!-- Preview link -->
+        <a href="https://neerajsingh14.github.io/Amazon-Clone/" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/Neerajsingh14/Amazon-Clone" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/amazon.jpg" alt="Amazon Clone" loading="lazy">
+      </figure>
+      <h3 class="project-title">Amazon Clone</h3>
+      <p class="project-category">Frontend</p>
+    </a>
+  </li>
+
+  <!-- Frontend: VS Code Clone -->
+  <li class="project-item active" data-filter-item data-category="frontend">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <!-- Preview link -->
+        <a href="https://neerajsingh14.github.io/VS-Code-Clone/" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/Neerajsingh14/VS-Code-Clone" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/vscode.jpg" alt="VS Code Clone" loading="lazy">
+      </figure>
+      <h3 class="project-title">VS Code Clone</h3>
+      <p class="project-category">Frontend</p>
+    </a>
+  </li>
+
+  <!-- Frontend: Presidency Course Registration Form -->
+  <li class="project-item active" data-filter-item data-category="frontend">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <!-- Preview link -->
+        <a href="https://neerajsingh14.github.io/University-Registration-Form/" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/Neerajsingh14/University-Registration-Form" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/registration.jpg" alt="Course Form" loading="lazy">
+      </figure>
+      <h3 class="project-title">Course Registration Form</h3>
+      <p class="project-category">Frontend</p>
+    </a>
+  </li>
+
+  <!-- Mini Project: Calculator -->
+<li class="project-item active" data-filter-item data-category="mini">
+  <a href="#">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <!-- Preview link -->
+        <a href="https://neerajsingh14.github.io/Calculator/" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/Neerajsingh14/Calculator" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </div>
+      <img src="./assets/images/Calculator.jpg" alt="Calculator" loading="lazy">
+    </figure>
+    <h3 class="project-title">Calculator</h3>
+    <p class="project-category">Mini Project</p>
+  </a>
+</li>
+
+
+  <!-- Mini Project: To-Do List -->
+  <li class="project-item active" data-filter-item data-category="frontend">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <!-- Preview link -->
+        <a href="https://your-live-demo-link.com" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/your-username/calculator" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/todolist.jpg" alt="To-Do List" loading="lazy">
+      </figure>
+      <h3 class="project-title">To-Do List</h3>
+      <p class="project-category">Frontend Project</p>
+    </a>
+  </li>
+
+  <!-- Mini Project: Digital Clock -->
+  <li class="project-item active" data-filter-item data-category="mini">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <!-- Preview link -->
+        <a href="https://digitalclockify.netlify.app/" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/Neerajsingh14/DigitalClock" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/digitalclock.jpg" alt="Digital Clock" loading="lazy">
+      </figure>
+      <h3 class="project-title">Digital Clock</h3>
+      <p class="project-category">Mini Project</p>
+    </a>
+  </li>
+
+  <!-- Mini Project: Age Calculator -->
+  <li class="project-item active" data-filter-item data-category="mini">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <!-- Preview link -->
+        <a href="https://neerajsingh14.github.io/Age-Calculator/" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/Neerajsingh14/Age-Calculator" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/agecal.jpg" alt="Age Calculator" loading="lazy">
+      </figure>
+      <h3 class="project-title">Age Calculator</h3>
+      <p class="project-category">Mini Project</p>
+    </a>
+  </li>
+
+  <!-- Mini Project: Hover Zoom Image -->
+  <li class="project-item active" data-filter-item data-category="mini">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <!-- Preview link -->
+        <a href="https://your-live-demo-link.com" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/your-username/calculator" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/imgslide.png" alt="Hover Image" loading="lazy">
+      </figure>
+      <h3 class="project-title">Image Zoom on Hover</h3>
+      <p class="project-category">Mini Project</p>
+    </a>
+  </li>
+
+  <!-- Mini Project: Sign In/Up Form -->
+  <li class="project-item active" data-filter-item data-category="mini">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <!-- Preview link -->
+        <a href="https://neerajsingh14.github.io/Sign-In-Sign-Up-Form/" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        <!-- GitHub link -->
+        <a href="https://github.com/Neerajsingh14/Sign-In-Sign-Up-Form" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/signIn.jpg" alt="Sign In/Up" loading="lazy">
+      </figure>
+      <h3 class="project-title">Sign In / Sign Up Form</h3>
+      <p class="project-category">Mini Project</p>
+    </a>
+  </li>
+
+  <!-- Mini Project: Animated Form -->
+  <li class="project-item active" data-filter-item data-category="mini">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+        
+        <a href="https://neerajsingh14.github.io/Login-Page/" target="_blank" title="View Project">
+          <ion-icon name="eye-outline"></ion-icon>
+        </a>
+        
+        <a href="https://github.com/Neerajsingh14/Login-Page" target="_blank" title="View Code on GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        </div>
+        <img src="./assets/images/signUp.jpg" alt="Animated Form" loading="lazy">
+      </figure>
+      <h3 class="project-title">Animated SignIn/Up Form</h3>
+      <p class="project-category">Mini Project</p>
+    </a>
+  </li>
+
+</ul>
+
+
+
+</section>
+
+
+      </article>
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+<section class="contact-form">
+  <h3 class="h3 form-title">Contact Form</h3>
+
+  <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+
+    <!-- REQUIRED: Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value="435a8dca-51a5-41b6-a714-d35941c84ac4">
+
+    <!-- OPTIONAL: Redirect after submission -->
+    <!-- <input type="hidden" name="redirect" value="https://yourwebsite.com/thank-you.html"> -->
+
+  
+
+    <!-- Input Fields -->
+    <div class="input-wrapper">
+      <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+      <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+    </div>
+
+    <div class="input-wrapper">
+    <!-- Mobile Number Field -->
+    <input type="tel" name="phone" class="form-input" placeholder="Mobile number" required pattern="[0-9]{10}" data-form-input>
+
+    <!-- Subject Field -->
+    <input type="text" name="subject" class="form-input" placeholder="Subject" required data-form-input>
+    </div>
+
+    <!-- Message Field -->
+    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+    <!-- Submit Button -->
+    <button class="form-btn" type="submit" data-form-btn>
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+
+  </form>
+</section>
+    </article>
+
+</div>
+
+</main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
